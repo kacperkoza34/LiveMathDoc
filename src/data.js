@@ -5,6 +5,12 @@ export default {
       text: "LiveMath to aplikacja umożliwiająca zdalną naukę matemtyki",
     },
     {
+      link: {
+        title: "Zarejestruj się tutaj!",
+        src: "https://www.livemath.pl/register/5ec16ef14650950017e401cb",
+      },
+    },
+    {
       subtitle: "Jak to działa?",
       text:
         "Aplikacja pozwala na tworzenie klas do których możemy zaprosić uczniów. Po stworzeniu klasy mamy możliwość dodawania do niej zadań. Dostępne są trzy rodzaje - zadania otwartę, zadania zamknięte, zadania prawda/fałsz. Po dodaniu zadań mamy możliwość śledzenia postępów u uczniów dzięki prostej punktacji",
@@ -15,18 +21,22 @@ export default {
       subtitle: "Widok ucznia",
       photo: { src: "photo/22.png", minusX: 10, plusX: 10, fullView: true },
     },
+    {
+      subtitle: "Przykładowe zadanie ze statusem do sprawdzenia",
+      photo: { src: "photo/9.png", minusX: 10, plusX: 10, fullView: true },
+    },
   ],
 
   openTask: [
     {
       title: "Zadanie otwarte",
       text:
-        "Dodawanie zadań otwartych to jedna z najciekawszych funkcjonalnosći. Głównym założeniem przy tworzeniu tej funkcji było umożliwienie tworzenia zadania z wieloma zestawami danych. Efekt jest taki że w momencie dodania zadnia do klasy każdy uczeń otrzyma zadnaie z losowym zestawem danych ",
+        "Dodawanie zadań otwartych to jedna z najciekawszych funkcjonalnosći. Głównym założeniem przy tworzeniu tej funkcjonalności było umożliwienie tworzenia zadania z wieloma zestawami danych. Efekt jest taki że w momencie dodania zadnia do klasy każdy uczeń otrzyma zadanie z losowym zestawem danych ",
       photo: { src: "photo/2.png", minusX: 10, plusX: 10, fullView: true },
     },
     {
-      subtitle: "Przykład dodawania zadania",
-      text: "Ponizsze zdjęcie obrazuje jak wygląda dodawanie zadania",
+      subtitle: "Przykład tworzenia nowego zadania",
+      text: "Ponizsze zdjęcie obrazuje jak wygląda tworzenia nowego zadania",
       photo: { src: "photo/3.png", minusX: 10, plusX: 10, fullView: true },
     },
     {
@@ -90,8 +100,7 @@ export default {
   reduxAxios: [
     {
       title: "Redux-Axios",
-      text:
-        "In this project you can see implementation of redux middleware with axios ",
+      text: "In this project you can see redux implementations with axios ",
       code:
         "const apiRequest = ({ dispatch }) => (next) => (action) => { \n" +
         "  next(action);\n" +
@@ -143,7 +152,7 @@ export default {
     },
 
     {
-      text: "Token is stored in redux state and in localStorage",
+      text: "Token is stored in redux state and localStorage",
       photo: { src: "photo/15.png", minusX: 10, plusX: 10, fullView: true },
     },
     {

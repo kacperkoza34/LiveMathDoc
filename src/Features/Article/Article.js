@@ -12,10 +12,7 @@ const Article = ({ content }) => {
           {subtitle && <h3>{subtitle}</h3>}
           {text && <p>{text}</p>}
           {link && (
-            <a
-              href={process.env.NODE_ENV ? "LiveMathDoc/" + link.src : link.src}
-              target="_blank"
-            >
+            <a href={link.src} target="_blank" rel="noopener noreferrer">
               {link.title}
             </a>
           )}
