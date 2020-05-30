@@ -1,0 +1,45 @@
+a {
+  color: inherit;
+  text-decoration: none; /* no underline */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  //font-size: calc(10px + 2vmin);
+  color: white;
+
+  .mainWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contentWrapper {
+    width: 100%;
+    margin-left: 240px;
+    padding: 100px 0;
+    padding: 35px;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    .contentWrapper {
+      margin-left: 0;
+    }
+  }
+}

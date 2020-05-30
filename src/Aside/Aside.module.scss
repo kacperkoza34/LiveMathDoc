@@ -1,0 +1,81 @@
+.aside {
+  .root {
+    z-index: 999999;
+    transition: 0.4s;
+
+    .asideWrapper {
+      width: 200px;
+      height: 100vh;
+      padding: 35px 20px;
+      top: 0;
+      left: 0;
+      position: fixed;
+      background: rgba(#0652dd, 0.95);
+
+      .list {
+        height: 100%;
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+    }
+
+    .control {
+      display: none;
+      transition: 0.4s;
+    }
+
+    .controlActive {
+      transition: 0.4s;
+    }
+  }
+
+  .active {
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 768px) {
+  .aside {
+    .root {
+      position: fixed;
+      left: -240px;
+      top: 0;
+      bottom: 0;
+
+      .asideWrapper {
+        position: relative;
+        height: 100vh;
+        margin: 0;
+        z-index: 222;
+      }
+      .control {
+        display: block;
+        position: absolute;
+        top: 30%;
+        bottom: 70%;
+        right: -20px;
+        width: 20px;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 700;
+        color: #fff;
+      }
+
+      .control:hover {
+        cursor: pointer;
+        color: black;
+      }
+    }
+    .active {
+      transform: translateX(100%);
+    }
+
+    .controlActive {
+      transform: rotate(180deg);
+    }
+  }
+}
