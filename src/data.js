@@ -2,29 +2,29 @@ export default {
   liveMath: [
     {
       title: "LiveMath",
-      text: "LiveMath to aplikacja umożliwiająca zdalną naukę matemtyki",
+      text: "LiveMath to aplikacja umożliwiająca zdalną naukę matemtyki"
     },
     {
       link: {
         title: "Zarejestruj się tutaj!",
-        src: "https://www.livemath.pl/register/5ec16ef14650950017e401cb",
-      },
+        src: "https://live-math-poc.herokuapp.com/register/firstline"
+      }
     },
     {
       subtitle: "Jak to działa?",
       text:
         "Aplikacja pozwala na tworzenie klas do których możemy zaprosić uczniów. Po stworzeniu klasy mamy możliwość dodawania do niej zadań. Dostępne są trzy rodzaje - zadania otwartę, zadania zamknięte, zadania prawda/fałsz. Po dodaniu zadań mamy możliwość śledzenia postępów u uczniów dzięki prostej punktacji",
 
-      photo: { src: "photo/1.png", minusX: 10, plusX: 10, fullView: true },
+      photo: { src: "photo/1.png", minusX: 10, plusX: 10, fullView: true }
     },
     {
       subtitle: "Widok ucznia",
-      photo: { src: "photo/22.png", minusX: 10, plusX: 10, fullView: true },
+      photo: { src: "photo/22.png", minusX: 10, plusX: 10, fullView: true }
     },
     {
       subtitle: "Przykładowe zadanie ze statusem do sprawdzenia",
-      photo: { src: "photo/9.png", minusX: 10, plusX: 10, fullView: true },
-    },
+      photo: { src: "photo/9.png", minusX: 10, plusX: 10, fullView: true }
+    }
   ],
 
   openTask: [
@@ -32,70 +32,70 @@ export default {
       title: "Zadanie otwarte",
       text:
         "Dodawanie zadań otwartych to jedna z najciekawszych funkcjonalnosći. Głównym założeniem przy tworzeniu tej funkcjonalności było umożliwienie tworzenia zadania z wieloma zestawami danych. Efekt jest taki że w momencie dodania zadnia do klasy każdy uczeń otrzyma zadanie z losowym zestawem danych ",
-      photo: { src: "photo/2.png", minusX: 10, plusX: 10, fullView: true },
+      photo: { src: "photo/2.png", minusX: 10, plusX: 10, fullView: true }
     },
     {
       subtitle: "Przykład tworzenia nowego zadania",
       text: "Ponizsze zdjęcie obrazuje jak wygląda tworzenia nowego zadania",
-      photo: { src: "photo/3.png", minusX: 10, plusX: 10, fullView: true },
+      photo: { src: "photo/3.png", minusX: 10, plusX: 10, fullView: true }
     },
     {
       subtitle: "Przykład gotowego zadania",
-      photo: { src: "photo/4.png", minusX: 10, plusX: 10, fullView: true },
-    },
+      photo: { src: "photo/4.png", minusX: 10, plusX: 10, fullView: true }
+    }
   ],
   closeTask: [
     {
       title: "Zadanie zamknięte",
       text:
         "Tworzenie nowych zadań zamkniętych przypomina funkcjonalność którą oferuje Google Forms",
-      photo: { src: "photo/5.png", minusX: 10, plusX: 10, fullView: true },
+      photo: { src: "photo/5.png", minusX: 10, plusX: 10, fullView: true }
     },
     {
       subtitle: "Przykład gotowego zadania",
-      photo: { src: "photo/6.png", minusX: 10, plusX: 10, fullView: true },
-    },
+      photo: { src: "photo/6.png", minusX: 10, plusX: 10, fullView: true }
+    }
   ],
   booleanTask: [
     {
       title: "Zadanie prawda/fałsz",
       text: "Zadania prawda/fałsz to najprostsza forma sprawdzenia wiedzy",
-      photo: { src: "photo/7.png", minusX: 10, plusX: 10, fullView: true },
+      photo: { src: "photo/7.png", minusX: 10, plusX: 10, fullView: true }
     },
     {
       subtitle: "Przykład gotowego zadania",
-      photo: { src: "photo/8.png", minusX: 10, plusX: 10, fullView: true },
-    },
+      photo: { src: "photo/8.png", minusX: 10, plusX: 10, fullView: true }
+    }
   ],
   checkTask: [
     {
       title: "Sprawdzanie zadań",
       text:
         "Jeżeli na liście uczniów pojawi się znak zapytania oznacza że dany uczeń posiada na swoim koncie zadnaie przesłane do sprawdzenia",
-      photo: { src: "photo/1.png", minusX: 10, plusX: 10, fullView: true },
+      photo: { src: "photo/1.png", minusX: 10, plusX: 10, fullView: true }
     },
     {
       subtitle: "Jak możemy sprawdzić zadanie?",
       text:
         "Jeżeli wejdziemy w zadanie ze statusem 'Do sprawdzenia' ukaże nam się panel sprawdzający, wyświetla on odpowiedzi ucznia i poprawne odpowiedzi. Możemy napisać uczniowi komentarz który dołączy do dyskusji i zmienić status na 'Do rozwiązania'",
 
-      photo: { src: "photo/9.png", minusX: 10, plusX: 10, fullView: true },
-    },
+      photo: { src: "photo/9.png", minusX: 10, plusX: 10, fullView: true }
+    }
   ],
   mern: [
     { title: "Tech stack" },
     {
-      photo: { src: "photo/10.png", minusX: 35, plusX: 35 },
+      photo: { src: "photo/10.png", minusX: 35, plusX: 35 }
     },
     {
-      photo: { src: "photo/11.png", minusX: 35, plusX: 35 },
+      photo: { src: "photo/11.png", minusX: 35, plusX: 35 }
     },
     {
-      photo: { src: "photo/12.png", minusX: 35, plusX: 35 },
+      photo: { src: "photo/12.png", minusX: 35, plusX: 35 }
     },
     {
-      photo: { src: "photo/13.png", minusX: 35, plusX: 35 },
-    },
+      photo: { src: "photo/13.png", minusX: 35, plusX: 35 }
+    }
   ],
   reduxAxios: [
     {
@@ -120,12 +120,12 @@ export default {
         "        dispatch(onError(response));\n" +
         "      });\n" +
         "   }\n" +
-        "};\n",
+        "};\n"
     },
     {
       subtitle: "Easy to watch all actions and requests",
-      photo: { src: "photo/14.png", minusX: 10, plusX: 10, fullView: true },
-    },
+      photo: { src: "photo/14.png", minusX: 10, plusX: 10, fullView: true }
+    }
   ],
   authorization: [
     {
@@ -148,12 +148,12 @@ export default {
         "     if (err) throw err;\n" +
         "     res.json({ token, accountType });\n" +
         "   }\n" +
-        " );",
+        " );"
     },
 
     {
       text: "Token is stored in redux state and localStorage",
-      photo: { src: "photo/15.png", minusX: 10, plusX: 10, fullView: true },
+      photo: { src: "photo/15.png", minusX: 10, plusX: 10, fullView: true }
     },
     {
       text: "Token is also used as default header",
@@ -164,7 +164,7 @@ export default {
         "  } else {\n" +
         "    delete axios.defaults.headers.common['x-auth-token'];\n" +
         "  }\n" +
-        "};\n",
+        "};\n"
     },
     {
       text: "On server side token is checking by middleware",
@@ -186,8 +186,8 @@ export default {
         "    console.error(err.message);\n" +
         "    res.status(401).json({ err: [{ msg: 'Token is not valid' }] });\n" +
         "  }\n" +
-        "};\n",
-    },
+        "};\n"
+    }
   ],
   security: [
     { title: "Security" },
@@ -195,7 +195,7 @@ export default {
     { photo: { src: "photo/20.png", minusX: 25, plusX: 25, fullView: false } },
     {
       subtitle:
-        "Some requests are available only if your account have permission:",
+        "Some requests are available only if your account have permission:"
     },
     {
       code:
@@ -218,7 +218,7 @@ export default {
         "  } catch (err) {\n" +
         "    res.status(401).json({ err: [{ msg: 'Token is not valid' }] });\n" +
         "  }\n" +
-        "};\n",
+        "};\n"
     },
     {
       subtitle: "Express validator",
@@ -238,7 +238,7 @@ export default {
         "    const errors = validationResult(req);\n" +
         "    if (!errors.isEmpty()) {\n" +
         "      return res.status(400).json({ err: errors.array() });\n" +
-        "    }\n",
+        "    }\n"
     },
     {
       subtitle: "Sanitize middleware",
@@ -258,7 +258,7 @@ export default {
         "    return item;\n" +
         "  });\n" +
         "}\n" +
-        "// ...\n",
+        "// ...\n"
     },
     {
       subtitle: "Helmet",
@@ -268,15 +268,15 @@ export default {
         "\n" +
         "const app = express()\n" +
         "\n" +
-        "app.use(helmet())\n",
-    },
+        "app.use(helmet())\n"
+    }
   ],
   rwd: [
     { title: "See how it looks like on mobile device " },
     { photo: { src: "photo/21.png", minusX: 35, plusX: 35, fullView: false } },
     { photo: { src: "photo/16.png", minusX: 35, plusX: 35, fullView: false } },
     { photo: { src: "photo/17.png", minusX: 35, plusX: 35, fullView: false } },
-    { photo: { src: "photo/18.png", minusX: 35, plusX: 35, fullView: false } },
+    { photo: { src: "photo/18.png", minusX: 35, plusX: 35, fullView: false } }
   ],
   emailVerification: [
     { title: "Email verification " },
@@ -285,16 +285,16 @@ export default {
         "At this moment this functionality works only if you use gamil, otherwise verification is not required",
       link: {
         title: "Click to see ",
-        src: "https://www.livemath.pl/register/5ec16ef14650950017e401cb",
-      },
+        src: "https://www.livemath.pl/register/5ec16ef14650950017e401cb"
+      }
     },
     {
       text:
-        "After registration (if you use gmail) you are suppose to confirm your email",
+        "After registration (if you use gmail) you are suppose to confirm your email"
     },
     { photo: { src: "photo/19.png", minusX: 25, plusX: 25, fullView: true } },
     {
-      subtitle: "Some requests are available only if your account is verified",
+      subtitle: "Some requests are available only if your account is verified"
     },
     {
       code:
@@ -309,7 +309,7 @@ export default {
         "  } catch (err) {\n" +
         "    res.status(401).json({ err: [{ msg: 'Token is not valid' }] });\n" +
         "  }\n" +
-        "};\n",
+        "};\n"
     },
     { subtitle: "But how it works? " },
     {
@@ -355,7 +355,7 @@ export default {
         "  </html>`,\n" +
         "  };\n" +
         "\n" +
-        "  await mailgun.messages().send(data);\n",
+        "  await mailgun.messages().send(data);\n"
     },
     { subtitle: "If you click on this link you are redirected to LiveMath" },
     {
@@ -382,7 +382,7 @@ export default {
         "      )}\n" +
         "    </div>\n" +
         "  );\n" +
-        "};\n",
+        "};\n"
     },
     { subtitle: "Below you can see endpoind responsible for verification" },
     {
@@ -399,7 +399,7 @@ export default {
         "    console.error(err.message);\n" +
         "    res.status(500).send({ err: [{ msg: 'Błedny link' }] });\n" +
         "  }\n" +
-        "});\n",
-    },
-  ],
+        "});\n"
+    }
+  ]
 };
